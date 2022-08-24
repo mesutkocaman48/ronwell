@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="e760109b-d8b2-4c75-9e56-7d4316007670"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="Trendyol">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="KillProcess"
+		optional="False"
+		searchpropertyid="1e216f44-5e1b-464b-8108-09392c16fb47">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8386f207-1329-4cb1-ae63-ec2e115af044"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='chrome']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="7fb8c5fa-26b5-4d02-9be6-6e9d7acd3471"
+	name="TrendyolRepository"
+	relativepath="TrendyolRepository.rxrep">
+		<codegen
+		classname="TrendyolRepository"
+		namespace="Trendyol">
+		</codegen>
+		<rootfolder
+		id="35ffee29-8413-46ce-83d9-d88e07150399"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

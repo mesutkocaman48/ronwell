@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="Trendyol"
+      id="36afaed6-a4f5-4c48-8811-c3d75bc0dbb6"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="Trendyol"
+      id="36afaed6-a4f5-4c48-8811-c3d75bc0dbb6"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>
